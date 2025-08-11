@@ -1,0 +1,5 @@
+Python == 3.7
+PyTorch == 1.11
+Speechbrain == 0.5.14
+pyannote.core == 4.5
+pyannote.metrics == 3.2.1
