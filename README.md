@@ -1,3 +1,11 @@
+WavLM
+-  Model used to take sound as input and can preduce
+   1. Speech/Non-speech
+   2. Speaker Embedding
+   3. Transcription
+   4. Emotion
+
+
 # Time-weighted Emotion Error Rate (TEER)  
 Code for "Integrating Emotion Recognition with Speech Recognition and Speaker Diarisation for Conversations". 
 This paper proposes a system that integrates emotion recognition with speech recognition and speaker diarisation in a jointly-trained model.  
