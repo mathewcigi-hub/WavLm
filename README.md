@@ -8,12 +8,7 @@ Two metrics proposed to evaluate emotion classification performance with automat
   - speaker-attributed Time-weighted Emotion Error Rate (sTEER) 
     $$\text{sTEER} = \frac{\text{MS}+\text{FA}+\text{CONF}_\text{emo+spk}}{\text{TOTAL}}$$
     
-## Setup
-- Python == 3.7
-- PyTorch == 1.11
-- Speechbrain == 0.5.14
-- pyannote.core == 4.5
-- pyannote.metrics == 3.2.1 
+
 
 ## Data preparation
 1. Convert stereo audio to single channel  
@@ -60,13 +55,6 @@ Two metrics proposed to evaluate emotion classification performance with automat
 *N.B. Since the CTC loss function of PyTorch (torch.nn.functional.ctc_loss) may produce nondeterministic gradients when given tensors on a CUDA device, users may get slighty different results from those reported in the paper.   
 See https://pytorch.org/docs/1.11/generated/torch.nn.functional.ctc_loss.html for details.*
 
-##
-Please cite:  
-> @inproceedings{wu23_interspeech,  
-  author={Wen Wu and Chao Zhang and Philip C. Woodland},  
-  title={{Integrating Emotion Recognition with Speech Recognition and Speaker Diarisation for Conversations}},  
-  year=2023,  
-  booktitle={Proc. INTERSPEECH 2023},  
-  pages={3607--3611},  
-  doi={10.21437/Interspeech.2023-293}  
-}   
+## References
+- Wu, Wen, Chao Zhang, and Philip C. Woodland. "Integrating emotion recognition with speech recognition and speaker diarisation for conversations." arXiv preprint arXiv:2308.07145 (2023).
+- WavLM.pptx
